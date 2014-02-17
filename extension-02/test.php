@@ -1,0 +1,3 @@
+<?php
+
+ma_fonction();
