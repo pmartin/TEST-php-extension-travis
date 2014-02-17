@@ -3,6 +3,8 @@
 set -e
 
 export CFLAGS="-Wall -Wextra -Wdeclaration-after-statement -Wvla -Wmissing-field-initializers -Wshadow -Wno-unused-parameter"
+export REPORT_EXIT_STATUS=1
+export NO_INTERACTION=1
 
 for dir in `ls -d -1 */`
 do
