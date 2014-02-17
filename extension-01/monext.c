@@ -26,8 +26,7 @@ zend_module_entry monext_module_entry = {
 
 PHP_FUNCTION(ma_fonction)
 {
-    //php_printf("Hello, World!\n");
-    php_printf("This should break the tests!!!\n");
+    php_printf("Hello, World!\n");
 }
 
 
