@@ -32,3 +32,10 @@ modules
 sm.php
 run-tests.php
 autom4te.cache
+tests/*.diff
+tests/*.exp
+tests/*.log
+tests/*.out
+tests/*.php
+tests/*.sh
+junit.xml
